@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="419.0" prefWidth="409.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="calculadora.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="419.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.FXMLDocumentController">
     <children>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercício 1 " wrappingWidth="319.13671875">
@@ -46,22 +46,22 @@
          </font>
       </Button>
       <TextField fx:id="textFieldNumero" layoutX="102.0" layoutY="54.0" />
-      <Text fx:id="textD" layoutX="83.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="106.78662049770355">
+      <Text fx:id="textD" layoutX="83.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="106.78662049770355">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fx:id="textT" layoutX="76.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="100.6708984375">
+      <Text fx:id="textT" layoutX="76.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.6708984375">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fx:id="textQ" layoutX="110.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="79.31396315991879">
+      <Text fx:id="textQ" layoutX="110.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="79.31396315991879">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fx:id="textC" layoutX="74.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="87.00000225007534">
+      <Text fx:id="textC" layoutX="74.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="87.00000225007534">
          <font>
             <Font size="15.0" />
          </font>
